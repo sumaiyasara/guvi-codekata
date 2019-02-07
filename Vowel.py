@@ -1,11 +1,12 @@
-while True:
-	try:
-		ch=input("")
-		break
-	except:
+x=input('')
+a=x.isalpha()
+if(len(x)==1):
+	if a==True:
+		if x in('a','e','i','o','u','A','E','I','O','U'):
+			print("Vowel")
+		else:
+			print("consonant")
+	else:
 		print("invalid")
-		break
-if(ch=='A' or ch=='E' or ch=='I' or ch=='O' or ch=='U' or ch=='a' or ch=='e' or ch=='i' or ch=='o' or ch=='u'):
-    print("Vowel")
 else:
-    print("Consonant")
+	print("invalid")
