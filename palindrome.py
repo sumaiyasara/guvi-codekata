@@ -1,11 +1,15 @@
-k=int(input())
-temp=k
-rev=0
-while(k>0):
-    dig=k%10
-    rev=rev*10+dig
-    k=k//10
-if(temp==rev):
-    print("yes")
+num = int(input())
+if (num<=1000):
+	temp = num
+	rev = 0
+ 
+	while temp != 0:
+		rev = (rev * 10) + (temp % 10)
+		temp = temp // 10
+ 
+	if num == rev:
+		print("yes")
+	else:
+		print("no")
 else:
-    print("no")
+	print("invalid")
