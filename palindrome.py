@@ -11,5 +11,4 @@ if (num<=1000):
 		print("yes")
 	else:
 		print("no")
-else:
-	print("invalid")
+
