@@ -1,6 +1,6 @@
-d=int(input())
+g=int(input())
 fact=1
-while(d>0):
-    fact=fact*d
-    d=d-1
+while(g>0):
+    fact=fact*g
+    g=g-1
 print(fact)
