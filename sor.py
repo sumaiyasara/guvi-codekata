@@ -1,9 +1,9 @@
-m,n = map(int,input().split())
+p,q = map(int,input().split())
 a = list(map(int,input().split()))
 b = list(map(int,input().split()))
 i =0
 j =0
-le = min(m,n)
+le = min(p,q)
 ans =[]
 while(i<le and j<le):
     if(a[i] == b[j]):
@@ -17,11 +17,11 @@ while(i<le and j<le):
     elif(a[i]>b[j]):
         ans.append(b[j])
         j+=1
-if(m>n):
-    for x in range(i,m):
+if(p>q):
+    for x in range(i,p):
         ans.append(a[x])
-elif(m<n):
-    for x in range(j,n):
+elif(p<q):
+    for x in range(j,q):
         ans.append(b[x])
 for z in range(len(ans)):
     if(z == len(ans)-1):
