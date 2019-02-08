@@ -4,8 +4,6 @@
 int main()
 {
     int low, high, i, temp1, temp2, remainder, n = 0, result = 0;
-
-    printf(" ");
     scanf("%d %d", &low, &high);
     for(i = low + 1; i < high; ++i)
     {
@@ -24,7 +22,7 @@ int main()
         }
 
         if (result == i) {
-            printf("%d ", i);
+            printf("%d", i);
         }
 
         n = 0;
