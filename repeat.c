@@ -17,7 +17,7 @@ int main()
         {
             if(a[i]==b[j])
             {
-                printf("%d ",a[i]);
+                printf("%d",a[i]);
                 b[j]='+';
                 break;
             }
