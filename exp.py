@@ -7,7 +7,7 @@ while True:
 	except:
 		print("invalid")
 		break
-g=1
+c=1
 for x in range(b):
-			g=g*a
+			c=c*a
 print(c)			
