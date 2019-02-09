@@ -1,7 +1,7 @@
-n = int(input())
-c=0
-for i in range(1,n):
-  for j in range(i,n+1):
+m = int(input())
+d=0
+for i in range(1,m):
+  for j in range(i,m+1):
     if(i!=j):
-      c+=1
-print(c)
+      d+=1
+print(d)
