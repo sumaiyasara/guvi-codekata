@@ -1,9 +1,9 @@
 #include<stdio.h>
 void main()
 {
-int min,hr;
-scanf("%d",&min);
-hr=min/60;
-min=min%60;
-printf("%d %d",hr,min);
+int minz,hrz;
+scanf("%d",&minz);
+hrz=minz/60;
+minz=minz%60;
+printf("%d %d",hrz,minz);
 }
